@@ -72,6 +72,7 @@ const Header = (props: any) => {
 
         <div className="col-8">
           <div className="right_area">
+            { userInfo ? (
             <div className="menu">
               <ul className="list-unstyled">
                 <li>
@@ -220,6 +221,156 @@ const Header = (props: any) => {
                 </div>
               </button>
             </div>
+            ) : (
+              <div className="menu">
+              <ul className="list-unstyled">
+                <li>
+                  <a
+                    style={{ cursor: "pointer" }}
+                    onClick={() => {
+                      if (
+                        !boolCheck?.isBool ||
+                        boolCheck?.isBool === undefined
+                      ) {
+                        navigate("/");
+                      } else {
+                        alert("Complete all mandatory fields first !");
+                      }
+                    }}
+                  >
+                    Home
+                  </a>
+                </li>
+                {/* <li>
+                  <a
+                    style={{ cursor: "pointer" }}
+                    onClick={() => {
+                      if (
+                        !boolCheck?.isBool ||
+                        boolCheck?.isBool === undefined
+                      ) {
+                        navigate(userInfo ? "/findpartner" : "/login");
+                      } else {
+                        alert("Complete all mandatory fields first !");
+                      }
+                    }}
+                  >
+                    Find partner
+                  </a>
+                </li> */}
+                {/* <li>
+                  <a
+                    style={{ cursor: "pointer" }}
+                    onClick={() => {
+                      if (
+                        !boolCheck?.isBool ||
+                        boolCheck?.isBool === undefined
+                      ) {
+                        navigate(userInfo ? "/explore" : "/login");
+                      } else {
+                        alert("Complete all mandatory fields first !");
+                      }
+                    }}
+                  >
+                    Explore
+                  </a>
+                </li>
+                <li>
+                  <a
+                    style={{ cursor: "pointer" }}
+                    onClick={() => navigate(userInfo ? "/chats" : "/login")}
+                  >
+                    Chats
+                  </a>
+                </li> */}
+                {/* <li>
+                  <a
+                    style={{ cursor: "pointer" }}
+                    onClick={() => navigate(userInfo ? "/myprofile" : "/login")}
+                  >
+                    profile
+                  </a>
+                </li>
+                <li>
+                  <a
+                    style={{ cursor: "pointer" }}
+                    onClick={() => {
+                      if (!userInfo) return navigate("/login");
+                      navigate("/myprofile", { state: { isSetting: true } });
+                    }}
+                  >
+                    setting
+                  </a>
+                </li> */}
+              </ul>
+
+              <button
+                className="btn toggler"
+                onClick={() => {
+                  if (isDrawer) {
+                    setIsDrawer(false);
+                  } else {
+                    setIsDrawer(true);
+                  }
+                }}
+              >
+                {isDrawer ? (
+                  <CustomDrawer
+                    isDrawerOpen={!drawerIsOpen}
+                    setIsOpen={(e: boolean) => {
+                      setDrawerIsOpen(e);
+                      setIsDrawer(false);
+                    }}
+                  />
+                ) : null}
+                <FaBars />
+              </button>
+
+              <button className="btn">
+                <i
+                  className="fa fa-user-alt"
+                  onClick={() => navigate(userInfo ? "/myprofile" : "/login")}
+                >
+                  <FaUser />
+                </i>
+                <span
+                  style={{ cursor: "pointer" }}
+                  onClick={() => {
+                    if (!userInfo) {
+                      navigate("/login");
+                    } else {
+                      // console.log("//////", logout);
+                      dispatch(logout(navigate));
+                    }
+                  }}
+                >
+                  {userInfo ? "Logout" : "Login"}
+                </span>
+              </button>
+
+              {/* <button
+                className="btn"
+                style={{
+                  marginLeft: 10,
+                  display: "flex",
+                  flexDirection: "row",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+                onClick={() => handleShow()}
+              >
+                <FaBell />
+                <div
+                  style={{
+                    fontSize: 12,
+                    paddingLeft: 5,
+                  }}
+                >
+                  25
+                </div>
+              </button> */}
+            </div> 
+            )}
           </div>
         </div>
       </div>

@@ -18,7 +18,6 @@ const CustomDrawer = (props: any) => {
   const dispatch = useDispatch();
   const [isOpen, setIsOpen] = useState(props.isDrawerOpen);
   const userInfo = useSelector((state: any) => state?.loginReducer?.userData);
-
   const [loginObj, setloginObj] = useState({
     dob: "",
     profileId: "",
