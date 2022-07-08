@@ -1,0 +1,11 @@
+<svg id="_4781855_alert_attention_caution_danger_error_icon" data-name="4781855_alert_attention_caution_danger_error_icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="Layer_2" data-name="Layer 2" transform="translate(3.732 4.997)">
+    <path id="Path_200" data-name="Path 200" d="M27.629,34H10.879a7.812,7.812,0,0,1-6.837-3.937,7.688,7.688,0,0,1,0-7.775L12.454,7.9a7.875,7.875,0,0,1,13.6,0l8.387,14.388h0a7.688,7.688,0,0,1,0,7.775A7.813,7.813,0,0,1,27.629,34ZM19.254,6.5a5.3,5.3,0,0,0-4.637,2.65l-8.388,14.4a5.188,5.188,0,0,0,0,5.263,5.288,5.288,0,0,0,4.65,2.687h16.75a5.288,5.288,0,0,0,4.663-2.687,5.187,5.187,0,0,0,0-5.263l-8.4-14.4A5.3,5.3,0,0,0,19.254,6.5Z" transform="translate(-2.986 -3.997)" fill="#ed197a"/>
+    <path id="Path_201" data-name="Path 201" d="M16.14,12a.675.675,0,0,0-.55.275.65.65,0,0,0-.125.6L16.14,15.6l.675-2.725a.65.65,0,0,0-.125-.6A.675.675,0,0,0,16.14,12Z" transform="translate(0.128 -1.997)" fill="none"/>
+    <path id="Path_202" data-name="Path 202" d="M19.136,11.24a3.2,3.2,0,0,0-5,0,3.125,3.125,0,0,0-.575,2.738l1.825,7.562a1.25,1.25,0,0,0,2.425,0L19.7,13.965A3.125,3.125,0,0,0,19.136,11.24Zm-1.825,2.125-.675,2.725-.675-2.725a.65.65,0,0,1,.125-.6.687.687,0,0,1,1.1,0,.65.65,0,0,1,.125.6Z" transform="translate(-0.368 -2.487)" fill="#ed197a"/>
+    <circle id="Ellipse_150" data-name="Ellipse 150" cx="1.875" cy="1.875" r="1.875" transform="translate(14.393 21.253)" fill="#ed197a"/>
+  </g>
+  <g id="frame">
+    <rect id="Rectangle_97" data-name="Rectangle 97" width="40" height="40" fill="none"/>
+  </g>
+</svg>

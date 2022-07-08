@@ -1,0 +1,66 @@
+.sliderStyle {
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+.shadowBox {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.containerCls {
+  position: absolute;
+  width: 100% !important;
+  height: 100% !important;
+  background-color: #fff;
+}
+
+.imageStyle {
+}
+
+.addressStyle {
+  background-color: darkslategray;
+  border-radius: 20px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  font-size: 2vh;
+}
+
+.rightCol {
+  padding: 20px;
+
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cardStyle {
+  width: 45%;
+
+  background-color: chartreuse;
+  border-radius: 15px;
+  margin-top: 5px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.heading {
+  color: cadetblue;
+  font-size: 2.5vh;
+  font-weight: 600;
+  text-align: center;
+}
+
+.report {
+  color: red;
+  font-weight: 700;
+  font-size: 3vh;
+  padding-top: 30px;
+}

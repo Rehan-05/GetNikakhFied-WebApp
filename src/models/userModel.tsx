@@ -1,0 +1,92 @@
+export interface IUser {
+    id: number;
+    gender: string;
+    email: string;
+    dob: Date;
+    nickName: string;
+    mainPhoto: string;
+    verifcationImage: string;
+    selfiePhoto: string;
+    isBlurOn: boolean;
+    isVerified: boolean;
+    isPhoneVerified: boolean;
+    isLockEnabled: boolean;
+    isChaperoneEnabled: boolean;
+    password: string;
+    isFacebook: boolean;
+    isGoogle: boolean;
+    facebookProfileId: string;
+    googleProfileId: string;
+    age: number;
+    location: number;
+    isDeactivated: null;
+    availableMessages: number;
+    country: string;
+    city: string;
+    height: string;
+    lat: number;
+    lng: number;
+    isInVerificationProcess: boolean;
+    verificationStatus: string;
+    isBlocked: boolean;
+    isUnderReview: boolean;
+    blockageMessage: string;
+    representedBy: string;
+    mainPhotoApproved: boolean;
+    ethnicOrigin: null;
+    dateJoined: Date;
+    profileDetail: ProfileDetail[];
+    profilePhotos: ProfilePhoto[];
+    photosRevealedTo: number[];
+    selectedEthnicities: any[];
+}
+
+export interface ProfileDetail {
+    id: number;
+    profileId: number;
+    maritalStatus: string;
+    statusMessage: string;
+    phone: string;
+    about: string;
+    haveChildren: boolean;
+    marriagePlan: string;
+    canRelocate: boolean;
+    location: string;
+    religiousityLevel: string;
+    prayingInfo: string;
+    onlyHalal: boolean;
+    doesSmoke: boolean;
+    doesAlcohol: boolean;
+    sect: string;
+    isConvertRevert: boolean;
+    dressingStyle: string;
+    ethnicGroupId: number;
+    ethnicOriginId: number;
+    professionId: number;
+    educationLevel: string;
+    jobTitle: string;
+    employerName: string;
+    cast: string;
+    partnerCast: string;
+    partnerSiblings: string;
+    partnerCity: string;
+    partnerDemand: string;
+    partnerProfession: string;
+}
+
+export interface ProfilePhoto {
+    id: number;
+    profileId: number;
+    image1: string;
+    image2: string;
+    image3: string;
+    image4: string;
+    image5: string;
+    image6: string;
+    image1Approved: boolean;
+    image2Approved: boolean;
+    image3Approved: boolean;
+    image4Approved: boolean;
+    image5Approved: boolean;
+    image6Approved: boolean;
+}

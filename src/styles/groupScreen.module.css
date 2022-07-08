@@ -1,0 +1,25 @@
+.gsHeading {
+  text-align: center;
+  padding: 10px 0;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  background-color: rgb(238, 61, 90);
+}
+.gsCardsContent {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  font-family: "Times New Roman", Times, serif;
+  justify-content: center;
+}
+.profileCard {
+  width: 200px;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  margin: 10px;
+}
+.profileImage {
+  width: 200px;
+  height: 250px;
+  border-radius: 12px;
+}

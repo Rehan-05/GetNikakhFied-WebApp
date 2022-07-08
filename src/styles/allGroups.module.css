@@ -1,0 +1,27 @@
+.allGroupsHeading {
+  text-align: center;
+  padding: 10px 0 0;
+  font-family: "Times New Roman", Times, serif;
+}
+.allGroupsHelpingText {
+  text-align: center;
+  padding: 0px 0 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 100;
+  color: gray;
+}
+.allGroupsDiv {
+  text-align: center;
+  padding: 0px 0 10px;
+  border: 3px solid rgb(238, 61, 90);
+  border-radius: 10px;
+  margin: 10px;
+}
+.groupCardMainDiv {
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  display: flex;
+}

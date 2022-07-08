@@ -1,0 +1,67 @@
+.allChats{
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.chatHeadMainDiv {
+  width: 300px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ff2386;
+  margin: 20px;
+}
+.chatHeadMainDiv:hover{
+  width: 310px;
+  height: 85px;
+}
+.chatHeadImageDiv {
+  width: 80px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chatHeadImageTag {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.chatHeadData {
+  width: 80%;
+  display: flex;
+  color: white;
+}
+.chatHeadNameChat {
+  width: 70%;
+  overflow: hidden;
+}
+.chatHeadName {
+  font-weight: 700;
+}
+.chatHeadLastMessage {
+  font-size: 80%;
+}
+.chatHeadInfo {
+  font-size: 80%;
+  text-align: end;
+  width: 29%;
+  padding: 0 1% 0 0;
+}
+.chatHeadTime {
+  margin: 0 0 auto;
+}
+.chatHeadBubble {
+  background-color: rgb(1, 207, 1);
+  color: white;
+  width: fit-content;
+  margin: 5px 0 0 auto;
+  padding: 1px;
+  min-width: 20px;
+  border-radius: 50%;
+  text-align: center;
+}
+.chatLoadingCircle{
+  margin: 40vh auto;
+}

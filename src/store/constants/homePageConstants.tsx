@@ -1,0 +1,7 @@
+export const PASS_REQUEST = "PASS_REQUEST";
+export const PASS_SUCCESS = "PASS_SUCCESS";
+export const PASS_FAIL = "PASS_FAIL";
+
+export const GET_ALL_USER_REQUEST = "GET_ALL_USER_REQUEST";
+export const GET_ALL_USER_SUCCESS = "GET_ALL_USER_SUCCESS";
+export const GET_ALL_USER_FAIL = "GET_ALL_USER_FAIL";

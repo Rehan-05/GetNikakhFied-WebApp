@@ -1,0 +1,152 @@
+.fieldIsMissingWarning {
+  color: #ed197a;
+}
+.backgroundVideoDiv {
+  /* position: absolute; */
+}
+.videoPlayerClass {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.firstPageContent {
+  width: 300px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgba(238, 106, 189, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+.emptyArea {
+  width: 300px;
+  height: 250px;
+}
+.mainHeading {
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.2ch;
+  text-shadow: 1px 1px black;
+  text-transform: uppercase;
+}
+.mainQuote {
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  font-weight: 500;
+  font-size: 15px;
+  text-shadow: 1px 1px black;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+button {
+  border: none;
+  outline: none;
+}
+.loginSignupbtn {
+  font-size: 130%;
+  width: 300px;
+  height: 50px;
+  border-radius: 30px;
+  margin: 10px 0;
+}
+.loginSignupbuttonsDiv {
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+  text-transform: uppercase;
+}
+.loginButton {
+  background-color: #fff;
+  color: #ed197a;
+}
+.signupButton {
+  background-color: #ed197a;
+  color: #fff;
+}
+.orMainDiv {
+  width: 300px;
+  display: flex;
+  color: #fff;
+  margin: 20px 0;
+}
+.orTag {
+  width: 40px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 500;
+}
+.straightLine {
+  width: 130px;
+  height: 1px !important;
+  border-bottom: 1px solid #fff;
+  margin: 7px 0 0;
+}
+.socialLoginButtons {
+  background-color: transparent;
+  color: #fff;
+  width: 40px;
+  /* height: 30px; */
+  /* border: 2px solid #fff; */
+  /* border-radius: 10px; */
+  /* font-size: 25px; */
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+.loginWithFb {
+}
+.loginWithGoogleCustomButton {
+}
+.loginWithAppleCustomButton {
+}
+.loginWithEmailCustomButton {
+}
+.contentBackground {
+  background-color: rgba(238, 106, 189, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.fpSelect {
+  width: 300px;
+  height: 40px;
+  border-radius: 30px;
+  margin: 10px 0;
+  padding: 0 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  outline: none;
+}
+.fpSelectOption {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: black;
+  padding: 20px;
+}
+.inputDate {
+}
+.backBtn {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  /* margin: 0 0 0 auto; */
+}

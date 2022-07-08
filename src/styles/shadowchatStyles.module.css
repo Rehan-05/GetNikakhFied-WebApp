@@ -1,0 +1,302 @@
+.chatMainDiv {
+    width: 100%;
+    display: flex;
+    height: 80vh;
+    margin: 20px 0;
+  }
+  .allChats {
+    width: 30%;
+    height: 100%;
+    border-right: 1px solid white;
+    overflow: auto;
+    cursor: pointer;
+    background-color: #fafafa;
+  }
+  .chatHeadMainDiv {
+    width: 96%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ff2386;
+    margin: 5px auto;
+  }
+  .chatHeadMainDiv:hover{
+    width: 98%;
+    height: 84px;
+  }
+  .chatHeadImageDiv {
+    width: 80px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .chatHeadImageTag {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  .chatHeadData {
+    width: 80%;
+    display: flex;
+    color: white;
+  }
+  .chatHeadNameChat {
+    width: 70%;
+    overflow: hidden;
+  }
+  .chatHeadName {
+    font-weight: 700;
+  }
+  .chatHeadLastMessage {
+    font-size: 80%;
+  }
+  .chatHeadInfo {
+    font-size: 80%;
+    text-align: end;
+    width: 29%;
+    padding: 0 1% 0 0;
+  }
+  .chatHeadTime {
+    margin: 0 0 auto;
+  }
+  .chatHeadBubble {
+    background-color: rgb(1, 207, 1);
+    color: white;
+    width: fit-content;
+    margin: 5px 0 0 auto;
+    padding: 1px;
+    min-width: 20px;
+    border-radius: 50%;
+    text-align: center;
+  }
+  .chatMessage {
+    width: 100%;
+  }
+  .chatWindow {
+    width: 70%;
+    height: 80vh;
+    background-color: #fdfdfd;
+  }
+  .chatHeading {
+    font-size: 130%;
+    font-weight: 700;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 1%;
+    background-color: #fafafa;
+    box-shadow: 0 5px 5px -5px #333;
+  }
+  .chatMessagesMainDiv {
+    height: 60vh;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  .chatMessage {
+    width: 96%;
+    padding: 20px 2% 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .chatBubble {
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    width: fit-content;
+    max-width: 50vw;
+  }
+  .chatBubbleInfo{
+    width: 100%;
+    display: flex;
+    margin: 5px 0 0px;
+  }
+  .chatBubbleInfoTime {
+    font-size: 60%;
+    text-align: end;
+  }
+  .sendMessagePanel {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fafafa;
+    box-shadow: 0 -5px 5px -5px #333;
+  }
+  .sendMessageInput {
+    width: 80% !important;
+    border-radius: 10px;
+    height: 8vh !important;
+    outline:none;
+  }
+  .sendMessageInput:active{
+    outline:none;
+
+  }
+  .sendMessageButton {
+    color:white;
+    background-color: #ED197A;
+    font-size: 200%;
+    font-weight: 500;
+    padding: 3px 5px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .sendMessageButton:hover {
+    color: black;
+  }
+  .headingImage {
+    height: 6vh;
+    width: 6vh;
+    margin: 1vh;
+    border-radius: 50%;
+  }
+
+  .chatLoadingCircle{ 
+    display: 'flex';
+     height: '80vh';
+      align-Items: 'center';
+       justify-content: "center";
+        width: "100%" }
+  
+  /* SCROLL BAR */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #fafafa;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #f1f1f1;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(230, 230, 230);
+  }
+
+  
+ @media screen and (max-width:1025px){
+   .chatHeadNameChat{
+     width: 100%;
+   }
+   .chatHeadInfo{
+     display: none;
+   }
+ }
+  
+  @media screen and (max-width: 800px) {
+    /* .allChats {
+      width: 20%;
+    }
+    .chatWindow {
+      width: 80%;
+    } */
+    /* .chatHeading {
+      height: 6vh;
+    }
+    .chatMessagesMainDiv {
+      height: 80vh;
+    }
+    .sendMessagePanel {
+      height: 6vh;
+    }
+    .headingImage {
+      height: 5vh;
+      width: 5vh;
+      margin: 0 1vh;
+    }
+    .chatHeadMainDiv {
+      height: fit-content;
+      flex-wrap: wrap;
+      font-size: 50%;
+    }
+    .chatHeadImageDiv {
+      width: 40px;
+      height: 40px;
+      margin: 5px auto;
+    }
+    .chatHeadImageTag {
+      width: 40px;
+      height: 40px;
+    }
+    .chatHeadData {
+      width: 100%;
+      display: contents;
+    }
+    .chatHeadNameChat {
+      width: 100%;
+    }
+    .chatHeadName {
+      width: 100%;
+      text-align: center;
+    }
+    .chatHeadLastMessage {
+      font-style: italic;
+      display: none;
+    }
+    .chatHeadInfo {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1px 0;
+      display: none;
+    }
+    .chatHeadTime {
+      margin: 0;
+    }
+    .chatHeadBubble {
+      margin: 0%;
+    }
+    .sendMessageInput {
+      width: 70% !important;
+      height: 5vh !important;
+    }
+    .sendMessageButton {
+      width: 20%;
+      font-size: 150%;
+    } */
+  }
+  @media screen and (max-width: 560px) {
+    .chatMainDiv{
+      flex-wrap: wrap;
+    }
+    .allChats{
+      width: 100%;
+      height: auto;
+      max-height: 30vh;
+      overflow: auto;
+    }
+    .chatHeadMainDiv:hover{
+      width: 96%;
+      height: 80px;
+    }
+    .chatHeadInfo{
+      display: block;
+    }
+    .chatWindow{
+      width: 100%;
+      height: 50vh;
+    }
+    .chatMessagesMainDiv{
+      height: 40vh;
+    }
+    .chatLoadingCircle{
+      
+    }
+  }
+  

@@ -1,0 +1,209 @@
+.fieldIsMissingWarning {
+  color: #ed197a;
+}
+.backgroundVideoDiv {
+  /* position: absolute; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  overflow: auto;
+  padding: 0 20px;
+}
+.videoPlayerClass {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.contentBackground {
+  background-color: rgba(238, 106, 189, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.loginPageContent {
+  width: 300px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgba(238, 106, 189, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+.ProfilePageContent {
+  width: 970px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgba(238, 106, 189, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+.sectPageContent {
+  width: 650px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgba(238, 106, 189, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+.emptyArea {
+  width: 300px;
+  height: 150px;
+}
+.emptyArea2 {
+  width: 300px;
+  height: 100px;
+}
+.mainHeading {
+  color: #fff;
+  width: 100%;
+  font-weight: 500;
+  font-size: 35px;
+
+  letter-spacing: 0.1ch;
+  text-shadow: 1px 1px black;
+  text-transform: capitalize;
+}
+.supportText {
+  color: #fff;
+  width: 100%;
+  /* text-shadow: 1px 1px black; */
+  margin-bottom: 20px;
+}
+button {
+  border: none;
+  outline: none;
+}
+input {
+  border: none;
+  outline: none;
+}
+.roundTransparentInput {
+  width: 260px;
+  height: 40px;
+  border-radius: 30px;
+  margin: 10px 0;
+  padding: 0 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+.roundTransparenttextArea {
+  width: 290px !important;
+  height: 100px !important;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+.roundTransparenttextArea::placeholder {
+  color: #fff;
+}
+.roundTransparentInput::placeholder {
+  color: #fff;
+}
+.loginButton {
+  font-size: 130%;
+  width: 300px;
+  height: 50px;
+  border-radius: 30px;
+  margin: 10px 0;
+  background-color: #ed197a;
+  color: #fff;
+  cursor: pointer;
+}
+.forgotPassDiv {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 80%;
+  cursor: pointer;
+}
+.fpSelect {
+  width: 300px;
+  height: 40px;
+  border-radius: 30px;
+  margin: 10px 0;
+  padding: 0 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  outline: none;
+}
+.fpSelect::placeholder {
+  color: #fff;
+}
+.fpSelectOption {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: black;
+  padding: 20px;
+}
+
+.DOBLabel {
+  color: white;
+  font-size: 70%;
+}
+.profileContent {
+}
+.educationRadios {
+  width: 300px;
+  margin: 10px 0;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+}
+.radioHeading {
+  width: 100%;
+  font-weight: 500;
+}
+.radioLabelDiv {
+  display: flex;
+  align-items: center;
+  width: 140px;
+}
+.radioLabel {
+  font-size: 70%;
+  width: 140px;
+}
+.inputLabel {
+  width: 300px;
+  margin: 10px 0 0;
+  color: #fff;
+  font-size: 80%;
+  font-weight: 500;
+}
+.inputDiv {
+  width: 300px;
+}
+.buttonsDiv {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 920px) {
+  .ProfilePageContent {
+    width: 650px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .ProfilePageContent {
+    width: 300px;
+  }
+}
